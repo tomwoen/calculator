@@ -14,11 +14,12 @@ public class DividerTest {
 	@Test
 	public void test() {
 
-		divider = Divider();
+		divider = new Divider();
 		int expectedValue = 3;
-		int actualValue = divide(9,3);
+		int actualValue = Divider.divide(9,3);
 		Assert.assertEquals(expectedValue, actualValue);
 		
 	}
+
 
 }
