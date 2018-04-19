@@ -19,6 +19,15 @@ public class DividerTest {
 		Assert.assertEquals(expectedValue, actualValue);
 		
 	}
+	@Test
+	public void test2() {
+		
+		divider = new Divider();
+		int expectedValue = 0;
+		int actualValue = divider.divide(3,0);
+		Assert.assertEquals(expectedValue, actualValue);
+	}
 
+	
 
 }
