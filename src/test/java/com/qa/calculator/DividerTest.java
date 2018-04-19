@@ -19,7 +19,7 @@ public class DividerTest {
 		Assert.assertEquals(expectedValue, actualValue);
 		
 	}
-	
+
 	@Test
 	public void test2() {
 		
@@ -29,5 +29,6 @@ public class DividerTest {
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 
+	
 
 }
